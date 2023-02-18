@@ -8,11 +8,11 @@ const abouts = [
     description: 'I am a good web developer.',
     imgUrl: images.about01 
   },
-  { title: 'Web Development', 
+  { title: 'Frontend Development', 
     description: 'I am a good web developer.',
     imgUrl: images.about02 
   },
-  { title: 'Web Development', 
+  { title: 'Backend Development', 
     description: 'I am a good web developer.',
     imgUrl: images.about03 
   },
@@ -25,13 +25,7 @@ const abouts = [
 const About = () => {
   return (
     <>
-      <h2 className='head-text'>
-        I Know That
-        <span>Good Design</span>
-        <br/>
-        means
-        <span>Good Business</span>
-      </h2>
+      <h2 className='head-text'>I Know That <span>Good Apps</span> <br /> means <span>Good Business</span> </h2>
       <div className='app__profiles'>
         {abouts.map((about, index) => (
           <motion.div

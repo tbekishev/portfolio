@@ -5,7 +5,7 @@ import Header from './container/Header/Header';
 function App() {
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Header/>
     </div>
   );

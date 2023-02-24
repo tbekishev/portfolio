@@ -108,4 +108,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap;
+export default AppWrap(Work, 'work');
